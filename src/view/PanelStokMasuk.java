@@ -33,6 +33,7 @@ public class PanelStokMasuk extends javax.swing.JPanel {
     public PanelStokMasuk() {
         initComponents();
         loadTableStokMasuk();
+        
 
         // Listener otomatis hitung total saat jumlah atau harga berubah
         txtJumlahStok.getDocument().addDocumentListener(new javax.swing.event.DocumentListener() {
@@ -238,6 +239,7 @@ public class PanelStokMasuk extends javax.swing.JPanel {
         dialog.DialogSupplier dialogSupplier = new dialog.DialogSupplier(
             (java.awt.Frame) javax.swing.SwingUtilities.getWindowAncestor(this), true, this
         );
+        dialogSupplier.setLocationRelativeTo(this);
         dialogSupplier.setVisible(true);
     }//GEN-LAST:event_btnInputSupplierActionPerformed
 
@@ -295,6 +297,7 @@ public class PanelStokMasuk extends javax.swing.JPanel {
         dialog.DialogSepatu dialogSepatu = new dialog.DialogSepatu(
             (java.awt.Frame) javax.swing.SwingUtilities.getWindowAncestor(this), true, this
         );
+        dialogSepatu.setLocationRelativeTo(this);
         dialogSepatu.setVisible(true);
     }//GEN-LAST:event_btnInputSepatuActionPerformed
 
