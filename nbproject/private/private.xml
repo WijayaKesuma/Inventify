@@ -5,6 +5,9 @@
         <group>
             <file>file:/C:/Users/ngrhm/Documents/NetBeansProjects/Inventify/src/view/PanelReport.java</file>
             <file>file:/C:/Users/ngrhm/Documents/NetBeansProjects/Inventify/src/view/PanelKelolaData.java</file>
+            <file>file:/C:/Users/ngrhm/Documents/NetBeansProjects/Inventify/src/util/TableDecorator.java</file>
+            <file>file:/C:/Users/ngrhm/Documents/NetBeansProjects/Inventify/src/koneksi/DatabaseConnection.java</file>
+            <file>file:/C:/Users/ngrhm/Documents/NetBeansProjects/Inventify/src/view/PanelStokMasuk.java</file>
         </group>
     </open-files>
 </project-private>
