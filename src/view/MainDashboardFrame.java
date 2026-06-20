@@ -66,7 +66,7 @@ public class MainDashboardFrame extends javax.swing.JFrame {
         // 2. Filter menu berdasarkan role
         if (userLogon.getRole().equalsIgnoreCase("Super Admin")) {
             // Tampilkan menu Super Admin
-            btnDashboard.setVisible(true);
+            btnDashboard.setVisible(false);
             btnKelolaData.setVisible(true);
             btnReport.setVisible(true);
             btnAboutUs.setVisible(true);
@@ -74,15 +74,16 @@ public class MainDashboardFrame extends javax.swing.JFrame {
 
         } else if (userLogon.getRole().equalsIgnoreCase("Admin Gudang")) {
             // Tampilkan menu Admin Gudang
-            btnDashboard.setVisible(true);
+            btnDashboard.setVisible(false);
             btnKelolaData.setVisible(true);
             btnStokMasuk.setVisible(true);
             btnReport.setVisible(false);
             btnAboutUs.setVisible(false);
             
+            
         }
         // Default awal saat masuk aplikasi: buka Dashboard
-        btnDashboardActionPerformed(null);
+        btnKelolaDataActionPerformed(null);
         
         if (panelKelolaData != null) {
             panelKelolaData.setHakAksesPanel(this.roleUserLogedIn);

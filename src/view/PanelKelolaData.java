@@ -537,8 +537,8 @@ public class PanelKelolaData extends javax.swing.JPanel {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(tabKelolaData, javax.swing.GroupLayout.DEFAULT_SIZE, 940, Short.MAX_VALUE)
-                .addGap(113, 113, 113))
+                .addComponent(tabKelolaData, javax.swing.GroupLayout.PREFERRED_SIZE, 940, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(14, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

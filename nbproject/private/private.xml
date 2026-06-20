@@ -3,26 +3,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Dekwaii/OneDrive/Documents/NetBeansProjects/Inventify/src/inventify/Inventify.java</file>
-            <file>file:/C:/Users/Dekwaii/OneDrive/Documents/NetBeansProjects/Inventify/src/view/PanelDashboard.java</file>
-            <file>file:/C:/Users/Dekwaii/OneDrive/Documents/NetBeansProjects/Inventify/src/view/PanelStokMasuk.java</file>
-            <file>file:/C:/Users/Dekwaii/OneDrive/Documents/NetBeansProjects/Inventify/src/view/PanelReport.java</file>
-            <file>file:/C:/Users/Dekwaii/OneDrive/Documents/NetBeansProjects/Inventify/src/view/PanelAboutUs.java</file>
-            <file>file:/C:/Users/Dekwaii/OneDrive/Documents/NetBeansProjects/Inventify/src/view/LoginFrame.java</file>
-            <file>file:/C:/Users/Dekwaii/OneDrive/Documents/NetBeansProjects/Inventify/src/controller/UserController.java</file>
-            <file>file:/C:/Users/Dekwaii/OneDrive/Documents/NetBeansProjects/Inventify/src/koneksi/DatabaseConnection.java</file>
-            <file>file:/C:/Users/Dekwaii/OneDrive/Documents/NetBeansProjects/Inventify/src/dialog/DialogSupplier.java</file>
-            <file>file:/C:/Users/Dekwaii/OneDrive/Documents/NetBeansProjects/Inventify/src/dialog/DialogSepatu.java</file>
-            <file>file:/C:/Users/Dekwaii/OneDrive/Documents/NetBeansProjects/Inventify/src/view/MainDashboardFrame.java</file>
-            <file>file:/C:/Users/Dekwaii/OneDrive/Documents/NetBeansProjects/Inventify/src/model/Sepatu.java</file>
-            <file>file:/C:/Users/Dekwaii/OneDrive/Documents/NetBeansProjects/Inventify/src/util/TableDecorator.java</file>
-            <file>file:/C:/Users/Dekwaii/OneDrive/Documents/NetBeansProjects/Inventify/src/view/PanelKelolaData.java</file>
-            <file>file:/C:/Users/Dekwaii/OneDrive/Documents/NetBeansProjects/Inventify/src/controller/SepatuController.java</file>
-            <file>file:/C:/Users/Dekwaii/OneDrive/Documents/NetBeansProjects/Inventify/src/model/Supplier.java</file>
-            <file>file:/C:/Users/Dekwaii/OneDrive/Documents/NetBeansProjects/Inventify/src/controller/SupplierController.java</file>
-            <file>file:/C:/Users/Dekwaii/OneDrive/Documents/NetBeansProjects/Inventify/src/model/User.java</file>
-            <file>file:/C:/Users/Dekwaii/OneDrive/Documents/NetBeansProjects/Inventify/src/model/StokMasuk.java</file>
-            <file>file:/C:/Users/Dekwaii/OneDrive/Documents/NetBeansProjects/Inventify/src/controller/StokMasukController.java</file>
+            <file>file:/C:/Users/YOGA/Documents/NetBeansProjects/Inventify/src/view/PanelDashboard.java</file>
         </group>
     </open-files>
 </project-private>
