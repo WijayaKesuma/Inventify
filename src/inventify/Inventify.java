@@ -21,17 +21,15 @@ public class Inventify {
         
         koneksi.DatabaseConnection.getKoneksi();
         
-        //Set tema modern FlatLaf (Biar UI langsung rounded/aesthetic)
         try {
             FlatLightLaf.setup();
         } catch (Exception ex) {
             System.err.println("Gagal memuat tema FlatLaf.");
         }
 
-        //Memanggil dan memunculkan LoginFrame
         LoginFrame login = new view.LoginFrame();
-        login.setLocationRelativeTo(null); // Membuat frame muncul pas di tengah layar
-        login.setVisible(true); // Memunculkan frame
+        login.setLocationRelativeTo(null); 
+        login.setVisible(true); 
     }
     
 }
