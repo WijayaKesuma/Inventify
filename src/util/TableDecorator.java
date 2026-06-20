@@ -96,6 +96,25 @@ public class TableDecorator {
         applyRenderers(tableStokMasuk);
     }
     
+    public static void decorateTableReport(JTable tableReport){
+        // Set visual grid & tinggi baris
+        tableReport.setShowGrid(true);
+        tableReport.setGridColor(new Color(220, 220, 220)); 
+        tableReport.setShowHorizontalLines(true);
+        tableReport.setShowVerticalLines(true);
+        tableReport.setIntercellSpacing(new Dimension(1, 1));
+        tableReport.setRowHeight(30);
+
+        // Kunci ukuran lebar masing-masing kolom
+        tableReport.getColumnModel().getColumn(0).setPreferredWidth(50);   
+        tableReport.getColumnModel().getColumn(1).setPreferredWidth(200);  
+        tableReport.getColumnModel().getColumn(2).setPreferredWidth(100);  
+        tableReport.getColumnModel().getColumn(3).setPreferredWidth(50);  
+        tableReport.getColumnModel().getColumn(4).setPreferredWidth(100);  
+        
+        applyRenderers(tableReport);
+    }
+    
     
     private static void applyRenderers(JTable table){
         // Renderer untuk Padding Kiri-Kanan 10px
