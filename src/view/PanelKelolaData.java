@@ -54,7 +54,7 @@ public class PanelKelolaData extends javax.swing.JPanel {
         txtIdSepatu.setEditable(false);
     }
     
-    // 2. TAMBAHKAN METHOD BARU INI UNTUK MENANGKAP ROLE DARI DASHBOARD
+    // METHOD UNTUK MENANGKAP ROLE DARI DASHBOARD
     public void setHakAksesPanel(String roleLogin) {
         if(roleLogin == null){
             return;
@@ -130,6 +130,7 @@ public class PanelKelolaData extends javax.swing.JPanel {
         TableDecorator.decorateTableSupplier(tableSupplier);
     }
     
+    //
     // FUNGSI MEMBERSIHKAN FORM INPUT SETELAH CRUD
     private void clearFormPegawai() {
         txtNamaLengkap.setText("");

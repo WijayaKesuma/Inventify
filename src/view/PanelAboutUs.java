@@ -26,55 +26,168 @@ public class PanelAboutUs extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        panelHeader = new javax.swing.JPanel();
+        jLabel5 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
+        panelProfile = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
+        panelFooter = new javax.swing.JPanel();
+        jLabel10 = new javax.swing.JLabel();
 
         setMaximumSize(new java.awt.Dimension(960, 680));
         setMinimumSize(new java.awt.Dimension(960, 680));
+        setLayout(new java.awt.BorderLayout());
 
-        jLabel1.setText("Nama Kelompok:");
+        panelHeader.setBackground(new java.awt.Color(6, 25, 81));
+        panelHeader.setPreferredSize(new java.awt.Dimension(960, 115));
+        panelHeader.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setText("1. I Made Wijaya Kesuma (2401010784)");
+        jLabel5.setBackground(new java.awt.Color(6, 25, 81));
+        jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Inventify-logo.png"))); // NOI18N
+        panelHeader.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 180, 50));
 
-        jLabel3.setText("2. I GUSTI NGURAH MADE AGUS ARYA DHARMAPUTRA (2401010784)");
+        jLabel1.setFont(new java.awt.Font("Segoe UI Semibold", 0, 24)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setText("ABOUT US & TEAM PROFILE");
+        panelHeader.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 20, 630, 40));
 
-        jLabel4.setText("3. I Kadek Yoga Dwipayana (2401010273)");
+        jLabel2.setFont(new java.awt.Font("Segoe UI Semibold", 0, 16)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setText("\"Inventify - Solusi Manajemen Stok Gudang Sepatu\"");
+        panelHeader.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 470, 30));
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
-        this.setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(159, 159, 159)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 231, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel1)
-                    .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 231, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel3))
-                .addContainerGap(430, Short.MAX_VALUE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(94, 94, 94)
-                .addComponent(jLabel1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel2)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel3)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel4)
-                .addContainerGap(504, Short.MAX_VALUE))
-        );
+        add(panelHeader, java.awt.BorderLayout.NORTH);
+
+        panelProfile.setBackground(new java.awt.Color(255, 255, 255));
+        panelProfile.setPreferredSize(new java.awt.Dimension(960, 500));
+        panelProfile.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel3.setText("Foto 4x4");
+        jLabel3.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
+        panelProfile.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 114, 210, 210));
+
+        jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel4.setText("Foto 4x4");
+        jLabel4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        panelProfile.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 114, 210, 210));
+
+        jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel6.setText("Foto 4x4");
+        jLabel6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        panelProfile.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 114, 210, 210));
+
+        jLabel7.setFont(new java.awt.Font("Segoe UI Semibold", 0, 18)); // NOI18N
+        jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel7.setText("AryaK");
+        panelProfile.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 60, 150, 40));
+
+        jLabel8.setFont(new java.awt.Font("Segoe UI Semibold", 0, 18)); // NOI18N
+        jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel8.setText("Dekwaii");
+        panelProfile.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 60, 150, 40));
+
+        jLabel9.setFont(new java.awt.Font("Segoe UI Semibold", 0, 18)); // NOI18N
+        jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel9.setText("Yoga");
+        panelProfile.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 60, 150, 40));
+
+        jLabel11.setBackground(new java.awt.Color(6, 25, 81));
+        jLabel11.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel11.setText("I Kadek Yoga Dwipayana");
+        jLabel11.setOpaque(true);
+        panelProfile.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 340, 210, 50));
+
+        jLabel12.setBackground(new java.awt.Color(6, 25, 81));
+        jLabel12.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel12.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel12.setText("2401010273");
+        jLabel12.setOpaque(true);
+        panelProfile.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 380, 210, 50));
+
+        jLabel13.setBackground(new java.awt.Color(6, 25, 81));
+        jLabel13.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel13.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel13.setText("I Made Wijaya Kesuma");
+        jLabel13.setOpaque(true);
+        panelProfile.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 340, 210, 50));
+
+        jLabel14.setBackground(new java.awt.Color(6, 25, 81));
+        jLabel14.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel14.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel14.setText("2401010282");
+        jLabel14.setOpaque(true);
+        panelProfile.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 380, 210, 50));
+
+        jLabel15.setBackground(new java.awt.Color(6, 25, 81));
+        jLabel15.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel15.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel15.setText("<html><center>I Gst Ngr Made Agus Arya Dharmaputra</center></html>");
+        jLabel15.setOpaque(true);
+        panelProfile.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 340, 210, 60));
+
+        jLabel16.setBackground(new java.awt.Color(6, 25, 81));
+        jLabel16.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel16.setText("2401010282");
+        jLabel16.setOpaque(true);
+        panelProfile.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 400, 210, 30));
+
+        add(panelProfile, java.awt.BorderLayout.CENTER);
+
+        panelFooter.setBackground(new java.awt.Color(6, 25, 81));
+        panelFooter.setPreferredSize(new java.awt.Dimension(960, 50));
+        panelFooter.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel10.setFont(new java.awt.Font("Segoe UI Semibold", 0, 14)); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel10.setText("Versi : v1.0.0 (Stable) | © 2026 Inventify Team. All Rights Reserved.");
+        panelFooter.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(19, 17, 910, -1));
+
+        add(panelFooter, java.awt.BorderLayout.PAGE_END);
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
+    private javax.swing.JPanel panelFooter;
+    private javax.swing.JPanel panelHeader;
+    private javax.swing.JPanel panelProfile;
     // End of variables declaration//GEN-END:variables
 }
